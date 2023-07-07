@@ -56,7 +56,8 @@ services:
 #      PGADMIN_DEFAULT_EMAIL: admin@admin.com
 #      PGADMIN_DEFAULT_PASSWORD: admin
 
-  app:
+  maia-collect-data-app:
+    container_name: maia-collect-data-app
     build: .
     volumes:
       - .:/app
